@@ -1,0 +1,19 @@
+import java.util.Arrays;
+public class TraverseArray{
+
+public static void main(String args[]){
+
+int myArray[]=new int[6];
+ myArray[0]=1234;
+ myArray[1]=9874;
+ myArray[2]=4567;
+ myArray[3]=8910;
+ myArray[4]=1211;
+ myArray[5]=1314;
+ 
+ System.out.println("Contents of the array:");
+ for(int element : myArray){
+ System.out.println(element);
+ }
+ }
+ }
